@@ -5,6 +5,7 @@
 | :-------------: | :-------------: | :-----: |
 | Game Events | Script | Scriptable object to handle game events |
 | Parallax | Script | Parallax script based on near/clipping planes |
+| Prototype Tileset | Sprite | Useful 16x16 platformer tileset for prototyping |
 
 ## How do i contribute to this project?
 [Click here](CONTRIBUTING.md).
