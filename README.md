@@ -1,5 +1,3 @@
-# Unity utilities
-
 ## Table of contents
 | Content | Type | Description |
 | ------------- |:-------------:|:-----:|
