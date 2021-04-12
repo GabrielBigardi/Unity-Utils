@@ -1,8 +1,8 @@
 # A pack of unity utilities for any usage in project.
 
 ## Table of contents
-| Content | Type | Description |
-| ------------- |:-------------:|:-----:|
+| Content         | Type          | Description |
+| :-------------: |:-------------:|:-----:      |
 | Game Events | Script | Scriptable object to handle game events |
 
 ## How do i contribute to this project?
