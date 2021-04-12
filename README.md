@@ -1,15 +1,8 @@
 # Unity utilities
 
-## Installation
-Clone the repository in your machine on GitHub Desktop or at a terminal using the command
-```
-git clone https://github.com/GabrielBigardi/Unity-Utils.git
-```
-Or if you like, download it manually by clicking the green "Code" button.
-
 ## Table of contents
 | Content | Type | Description |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:|:-----:|
 | Game Events | Script | Scriptable object to handle game events |
 
 ## How do i contribute to this project?
