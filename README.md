@@ -3,11 +3,11 @@
 ## Table of contents
 | Content | Type | Location | Description |
 | :---: | :---: | :---: | :---: |
-| Game Events | Script | Scripts/GameEvents | Scriptable object to handle game events |
-| Parallax | Script | Scripts/Parallax | Parallax script based on near/clipping planes |
-| Debug Console | Script | Scripts/Debug | Simple useful debug/cheat console  |
-| Tileset 16x16 | Sprite | Sprites/Prototype 16x16 | 16x16 platformer tileset for prototyping |
-| Tileset 32x32 | Sprite | Sprites/Prototype 32x32 | 32x32 platformer tileset for prototyping |
+| Game Events | Script | Scripts/GameEvents/ | Scriptable object to handle game events |
+| Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
+| Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
+| Tileset 16x16 | Sprite | Sprites/Prototype 16x16/ | 16x16 platformer tileset for prototyping |
+| Tileset 32x32 | Sprite | Sprites/Prototype 32x32/ | 32x32 platformer tileset for prototyping |
 
 ## How do i contribute to this project?
 [Click here](CONTRIBUTING.md).
