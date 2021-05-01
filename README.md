@@ -6,7 +6,7 @@
 | Game Events | Script | Scripts/Game Events/ | Scriptable object to handle game events |
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
 | Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
-| State Machine | Script | Scripts/State Machine/ | A very basic state machine to use on AIs, animators and others... |
+| State Machine | Script | Scripts/State Machine/ | Basic state machine to use on AIs, animators and others... |
 | Tileset 16x16 | Sprite | Sprites/Prototype 16x16/ | 16x16 platformer tileset for prototyping |
 | Tileset 32x32 | Sprite | Sprites/Prototype 32x32/ | 32x32 platformer tileset for prototyping |
 
