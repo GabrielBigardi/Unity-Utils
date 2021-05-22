@@ -16,12 +16,17 @@ public class PlayerEntity : MonoBehaviour
     private void Awake()
     {
         _stateMachine = new StateMachine();
-        _idleState = new IdleState(this);
-        _walkState = new WalkState(this);
+        _idleState = new IdleState(_stateMachine, this);
+        _walkState = new WalkState(_stateMachine, this);
     }
 
     private void Update()
     {
         _stateMachine.Tick();
     }
+	
+	private void FixedUpdate()
+	{
+		_stateMachine.FixedTick();
+	}
 }

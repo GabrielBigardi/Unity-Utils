@@ -1,9 +1,11 @@
 public class IdleState : IState
 {
+	private readonly StateMachine _stateMachine;
     private readonly PlayerEntity _playerEntity;
 
-    public IdleState(PlayerEntity playerEntity)
+    public IdleState(StateMachine stateMachine, PlayerEntity playerEntity)
     {
+		_stateMachine = stateMachine;
         _playerEntity = playerEntity;
     }
     
@@ -11,6 +13,11 @@ public class IdleState : IState
     {
         Debug.Log("Idle Tick");
     }
+	
+	public void FixedTick()
+	{
+		Debug.Log("Idle Physics Tick");
+	}
 
     public void OnEnter()
     {
