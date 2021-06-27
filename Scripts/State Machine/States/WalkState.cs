@@ -14,10 +14,10 @@ public class WalkState : IState
         Debug.Log("Walk Tick");
     }
 	
-	public void FixedTick()
-	{
-		Debug.Log("Walk Physics Tick");
-	}
+    public void FixedTick()
+    {
+        Debug.Log("Walk Physics Tick");
+    }
 
     public void OnEnter()
     {
