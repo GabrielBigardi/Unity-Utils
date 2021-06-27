@@ -14,10 +14,10 @@ public class IdleState : IState
         Debug.Log("Idle Tick");
     }
 	
-	public void FixedTick()
-	{
-		Debug.Log("Idle Physics Tick");
-	}
+    public void FixedTick()
+    {
+        Debug.Log("Idle Physics Tick");
+    }
 
     public void OnEnter()
     {
