@@ -1,7 +1,7 @@
 ﻿public interface IState
 {
     void Tick();
-	void FixedTick();
+    void FixedTick();
     void OnEnter();
     void OnExit();
 }
