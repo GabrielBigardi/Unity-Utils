@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class IdleState : IState
 {
 	private readonly StateMachine _stateMachine;

@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class WalkState : IState
 {
 	private readonly StateMachine _stateMachine;
