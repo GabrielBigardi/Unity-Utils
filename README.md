@@ -3,6 +3,7 @@
 ## Table of contents
 | Content | Type | Location | Description |
 | :---: | :---: | :---: | :---: |
+| Audio Events | Script | Scripts/Audio Events/ | Scriptable audio events with features: random audioclip, random pitch between range, easy volume managing... |
 | Game Events | Script | Scripts/Game Events/ | Scriptable object to handle game events |
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
 | Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
