@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Gods of Sand/Events/Audio Events/Simple")]
+[CreateAssetMenu(menuName = "Unity Utils/Audio Events/Simple")]
 public class SimpleAudioEvent : AudioEvent
 {
     public AudioClip[] clips;
