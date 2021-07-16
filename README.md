@@ -3,7 +3,7 @@
 ## Table of contents
 | Content | Type | Location | Description |
 | :---: | :---: | :---: | :---: |
-| Audio Events | Script | Scripts/Audio Events/ | Audio event based on scriptable objects |
+| Audio Events | Script | Scripts/Audio Events/ | Audio events based on scriptable objects |
 | Game Events | Script | Scripts/Game Events/ | Game events based on scriptable objects |
 | Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
