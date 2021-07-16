@@ -10,6 +10,7 @@
 | State Machine | Script | Scripts/State Machine/ | Simple but powerful state-machine |
 | Tileset 16x16 | Sprite | Sprites/Prototype 16x16/ | 16x16 platformer tileset for prototyping |
 | Tileset 32x32 | Sprite | Sprites/Prototype 32x32/ | 32x32 platformer tileset for prototyping |
+| Tileset 64x64 | Sprite | Sprites/Prototype 64x64/ | 64x64 platformer tileset for prototyping |
 
 ## How do i contribute to this project?
 [Click here](CONTRIBUTING.md).
