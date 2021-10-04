@@ -8,6 +8,8 @@
 | Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
 | State Machine | Script | Scripts/State Machine/ | Simple but powerful state-machine |
+| Inner Outline Shader | Sprite | Shaders/ | Inner outline shader |
+| Outer Outline Shader | Sprite | Shaders/ | Outer Outline Shader |
 | Tileset 16x16 | Sprite | Sprites/Prototype 16x16/ | 16x16 platformer tileset for prototyping |
 | Tileset 32x32 | Sprite | Sprites/Prototype 32x32/ | 32x32 platformer tileset for prototyping |
 | Tileset 64x64 | Sprite | Sprites/Prototype 64x64/ | 64x64 platformer tileset for prototyping |
