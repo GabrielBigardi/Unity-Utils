@@ -9,7 +9,7 @@
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
 | State Machine | Script | Scripts/State Machine/ | Basic state-machine system |
 | Scrolling Text System | Script | Scripts/Scrolling Text/ | A simple scrolling text system with singleton |
-| Sliced Filled Image | Script | Scripts/Scrolling Text/Extensions/Sliced Filled Image | UI image that can be sliced AND filled |
+| Sliced Filled Image | Script | Scripts/Extensions/Sliced Filled Image | UI image that can be sliced AND filled |
 | Inner Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Inner outline shader |
 | Outer Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Outer Outline Shader |
 | Outline (ShaderGraph) | Shader | Shaders/Outline - Shader Graph/ | Outline Shader Graph |
