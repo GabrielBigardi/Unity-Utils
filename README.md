@@ -11,7 +11,7 @@
 | Scrolling Text System | Script | Scripts/Scrolling Text/ | A simple scrolling text system with singleton |
 | Sliced Filled Image | Script | Scripts/Extensions/Sliced Filled Image | UI image that can be sliced AND filled |
 | Inner/Outer Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Inner and outer outline shader |
-| Outline (ShaderGraph) | Shader | Shaders/Outline - Shader Graph/ | Outline Shader Graph |
+| Outline (ShaderGraph) | Shader | Shaders/Outline - Shader Graph/ | Outline shader made in Shader Graph |
 | Tileset 16x16 | Sprite | Sprites/Prototype 16x16/ | 16x16 platformer tileset for prototyping |
 | Tileset 32x32 | Sprite | Sprites/Prototype 32x32/ | 32x32 platformer tileset for prototyping |
 | Tileset 64x64 | Sprite | Sprites/Prototype 64x64/ | 64x64 platformer tileset for prototyping |
