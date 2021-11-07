@@ -9,9 +9,9 @@
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
 | State Machine | Script | Scripts/State Machine/ | Basic state-machine system |
 | Scrolling Text System | Script | Scripts/Scrolling Text/ | A simple scrolling text system with singleton |
-| Inner Outline Shader (HLSL) | Shader | Shaders/Outline_HLSL/ | Inner outline shader |
-| Outer Outline Shader (HLSL) | Shader | Shaders/Outline_HLSL/ | Outer Outline Shader |
-| Outline (ShaderGraph) | Shader | Shaders/Outline_ShaderGraph/ | Outline Shader Graph |
+| Inner Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Inner outline shader |
+| Outer Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Outer Outline Shader |
+| Outline (ShaderGraph) | Shader | Shaders/Outline - Shader Graph/ | Outline Shader Graph |
 | Tileset 16x16 | Sprite | Sprites/Prototype 16x16/ | 16x16 platformer tileset for prototyping |
 | Tileset 32x32 | Sprite | Sprites/Prototype 32x32/ | 32x32 platformer tileset for prototyping |
 | Tileset 64x64 | Sprite | Sprites/Prototype 64x64/ | 64x64 platformer tileset for prototyping |
