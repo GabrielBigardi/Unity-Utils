@@ -12,9 +12,7 @@
 | Sliced Filled Image | Script | Scripts/Extensions/Sliced Filled Image | UI image that can be sliced AND filled |
 | Inner/Outer Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Inner and outer outline shader |
 | Outline (ShaderGraph) | Shader | Shaders/Outline - Shader Graph/ | Outline shader made in Shader Graph |
-| Tileset 16x16 | Sprite | Sprites/Prototype 16x16/ | 16x16 platformer tileset for prototyping |
-| Tileset 32x32 | Sprite | Sprites/Prototype 32x32/ | 32x32 platformer tileset for prototyping |
-| Tileset 64x64 | Sprite | Sprites/Prototype 64x64/ | 64x64 platformer tileset for prototyping |
+| Tileset 16x16, 32x32, 64x64 | Sprite | Sprites/Prototyping Tilesets/ | 16x16, 32x32 and 64x64 platformer tilesets for prototyping |
 
 ## How do i contribute to this project?
 [Click here](CONTRIBUTING.md).
