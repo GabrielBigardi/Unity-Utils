@@ -3,11 +3,11 @@
 ## Table of contents
 | Content | Type | Location | Description |
 | :---: | :---: | :---: | :---: |
-| Audio Events | Script | Scripts/Audio Events/ | Audio events based on scriptable objects |
-| Game Events | Script | Scripts/Game Events/ | Game events based on scriptable objects |
+| Audio Events | Script | Scripts/Audio Events/ | Audio Events with customizable volume/pitch/random clips based on scriptable objects |
+| Game Events | Script | Scripts/Game Events/ | Game Events based on scriptable objects |
 | Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
-| State Machine | Script | Scripts/State Machine/ | Basic state-machine system |
+| State Machine | Script | Scripts/State Machine/ | Basic and powerful state-machine system |
 | Scrolling Text System | Script | Scripts/Scrolling Text/ | A simple scrolling text system with singleton |
 | Sliced Filled Image | Script | Scripts/Extensions/Sliced Filled Image | UI image that can be sliced AND filled |
 | Inner/Outer Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Inner outline shader |
