@@ -7,7 +7,8 @@
 | Game Events | Script | Scripts/Game Events/ | Game events based on scriptable objects |
 | Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
-| State Machine | Script | Scripts/State Machine/ | Simple but powerful state-machine |
+| State Machine | Script | Scripts/State Machine/ | Basic state-machine system |
+| Scrolling Text System | Script | Scripts/Scrolling Text/ | A simple scrolling text system with singleton |
 | Inner Outline Shader (HLSL) | Shader | Shaders/Outline_HLSL/ | Inner outline shader |
 | Outer Outline Shader (HLSL) | Shader | Shaders/Outline_HLSL/ | Outer Outline Shader |
 | Outline (ShaderGraph) | Shader | Shaders/Outline_ShaderGraph/ | Outline Shader Graph |
