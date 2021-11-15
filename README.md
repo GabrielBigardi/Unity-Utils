@@ -6,7 +6,7 @@
 | Audio Events | Script | Scripts/Audio Events/ | Audio Events with customizable volume/pitch/random clips based on scriptable objects |
 | Game Events | Script | Scripts/Game Events/ | Game Events based on scriptable objects |
 | Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
-| Hierarchy Window Header | Script | Scripts/Editor/HierarchyWindowHeader/ | A nice way of organizing your hierarchy  |
+| Hierarchy Window Header | Script | Scripts/HierarchyWindowHeader/ | A nice way of organizing your hierarchy  |
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
 | State Machine | Script | Scripts/State Machine/ | Basic and powerful state-machine system |
 | Scrolling Text System | Script | Scripts/Scrolling Text/ | A simple scrolling text system with singleton |
