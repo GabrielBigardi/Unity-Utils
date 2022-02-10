@@ -1,5 +1,4 @@
 ﻿using System;
-using Sirenix.OdinInspector;
 
 [Serializable]
 public struct RangedFloat
