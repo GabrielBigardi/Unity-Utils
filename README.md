@@ -11,6 +11,7 @@
 | State Machine | Script | Scripts/State Machine/ | Basic and powerful state-machine system |
 | Scrolling Text System | Script | Scripts/Scrolling Text/ | A simple scrolling text system with singleton |
 | Sliced Filled Image | Script | Scripts/Extensions/Sliced Filled Image | UI image that can be sliced AND filled |
+| Sprite Animator | Script | Scripts/Sprite Animator/ | A simple and easily customizable sprite animator |
 | Inner/Outer Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Inner and outer outline shader |
 | Outline (ShaderGraph) | Shader | Shaders/Outline - Shader Graph/ | Outline shader made in Shader Graph |
 | Prototyping Tilesets (16x16, 32x32, 64x64) | Sprite | Sprites/Prototyping Tilesets/ | Set of prototyping tilesets |
