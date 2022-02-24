@@ -8,11 +8,7 @@ namespace GabrielBigardi.SpriteAnimator
     [CanEditMultipleObjects]
     public class SpriteAnimationEditor : Editor
     {
-        private SpriteAnimation SelectedSpriteAnimation
-        {
-            get { return target as SpriteAnimation; }
-        }
-
+        private SpriteAnimation SelectedSpriteAnimation => target as SpriteAnimation;
         private float timeTracker = 0;
 
         private SpriteAnimationFrame currentFrame;
