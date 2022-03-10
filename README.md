@@ -6,7 +6,7 @@
 | Audio Events | Script | Scripts/Audio Events/ | Audio Events with customizable volume/pitch/random clips based on scriptable objects |
 | Game Events | Script | Scripts/Game Events/ | Game Events based on scriptable objects |
 | Debug Console | Script | Scripts/Debug/ | Simple useful debug/cheat console  |
-| Hierarchy Window Header | Script | Scripts/HierarchyWindowHeader/ | A nice way of organizing your hierarchy  |
+| Hierarchy Separator | Script | Scripts/Hierarchy Separator/ | A nice way of organizing your hierarchy  |
 | Parallax | Script | Scripts/Parallax/ | Parallax script based on near/clipping planes |
 | State Machine | Script | Scripts/State Machine/ | Basic and powerful state-machine system |
 | Scrolling Text System | Script | Scripts/Scrolling Text/ | A simple scrolling text system with singleton |
@@ -15,6 +15,11 @@
 | Inner/Outer Outline Shader (HLSL) | Shader | Shaders/Outline - HLSL/ | Inner and outer outline shader |
 | Outline (ShaderGraph) | Shader | Shaders/Outline - Shader Graph/ | Outline shader made in Shader Graph |
 | Prototyping Tilesets (16x16, 32x32, 64x64) | Sprite | Sprites/Prototyping Tilesets/ | Set of prototyping tilesets |
+
+## Credits
+| Credited | Reason |
+| :---: | :---: |
+| [Ricardo Godoy](https://github.com/RicardoQLG) | Remaking Hierarchy Separator with better/cleaner/flexible code and usability |
 
 ## How do i contribute to this project?
 [Click here](CONTRIBUTING.md).
