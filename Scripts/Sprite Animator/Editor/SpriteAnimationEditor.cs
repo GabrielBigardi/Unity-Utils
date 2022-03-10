@@ -9,6 +9,7 @@ namespace GabrielBigardi.SpriteAnimator
     public class SpriteAnimationEditor : Editor
     {
         private SpriteAnimation SelectedSpriteAnimation => target as SpriteAnimation;
+
         private float timeTracker = 0;
 
         private SpriteAnimationFrame currentFrame;
@@ -19,6 +20,8 @@ namespace GabrielBigardi.SpriteAnimator
         private SerializedProperty _frames;
         private SerializedProperty _spriteAnimationType;
 
+        private ReorderableList _framesReorderableList;
+
         private void OnEnable()
         {
             timeTracker = (float)EditorApplication.timeSinceStartup;
@@ -28,6 +31,10 @@ namespace GabrielBigardi.SpriteAnimator
             _fps = serializedObject.FindProperty("FPS");
             _frames = serializedObject.FindProperty("Frames");
             _spriteAnimationType = serializedObject.FindProperty("SpriteAnimationType");
+
+            _framesReorderableList = new ReorderableList(serializedObject, _frames, true, true, true, true);
+            _framesReorderableList.drawElementCallback = DrawFramesListElements;
+            _framesReorderableList.drawHeaderCallback = DrawFramesListHeader;
 
             EditorApplication.update += OnUpdate;
         }
@@ -43,7 +50,7 @@ namespace GabrielBigardi.SpriteAnimator
 
             EditorGUILayout.PropertyField(_name);
             EditorGUILayout.PropertyField(_fps);
-            EditorGUILayout.PropertyField(_frames);
+            _framesReorderableList.DoLayoutList();
             EditorGUILayout.PropertyField(_spriteAnimationType);
 
             serializedObject.ApplyModifiedProperties();
@@ -92,6 +99,17 @@ namespace GabrielBigardi.SpriteAnimator
 
                 GUI.DrawTextureWithTexCoords(previewRect, t, r2, true);
             }
+        }
+
+        private void DrawFramesListElements(Rect rect, int index, bool isActive, bool isFocused)
+        {
+            SerializedProperty element = _framesReorderableList.serializedProperty.GetArrayElementAtIndex(index); // The element in the list
+            EditorGUI.PropertyField(new Rect(rect.x, rect.y, rect.width, EditorGUIUtility.singleLineHeight), element, GUIContent.none);
+        }
+
+        private void DrawFramesListHeader(Rect rect)
+        {
+            EditorGUI.LabelField(rect, "Frames List");
         }
 
         private bool HasAnimationAndFrames()
