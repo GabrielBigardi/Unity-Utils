@@ -98,6 +98,14 @@ namespace GabrielBigardi.SpriteAnimator
             }
         }
 
+        public void PlayIfNotPlaying(string name)
+        {
+            if(CurrentAnimation.name != name)
+            {
+                Play(name);
+            }
+        }
+
         public void Play()
         {
             if (CurrentAnimation == null)
