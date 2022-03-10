@@ -20,6 +20,8 @@
 | Credited | Reason |
 | :---: | :---: |
 | [Ricardo Godoy](https://github.com/RicardoQLG) | Remaking Hierarchy Separator with better/cleaner/flexible code and usability |
+| [AdamCYounis](https://www.twitch.tv/adamcyounis) | Making the initial Parallax script |
+| [IndieGabo](https://github.com/indiegabo) | Adding LockX/LockY/Smoothing to Parallax |
 
 ## How do i contribute to this project?
 [Click here](CONTRIBUTING.md).
