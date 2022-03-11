@@ -24,11 +24,11 @@ namespace GabrielBigardi.SpriteAnimator
 
         private bool triggerAnimationEndedEvent = false;
 
-        public Action SpriteChanged;
-        public Action<SpriteAnimation> AnimationPlayed;
-        public Action<SpriteAnimation> AnimationPaused;
-        public Action AnimationEnded;
-        public Action<string> AnimationEventCalled;
+        public event Action SpriteChanged;
+        public event Action<SpriteAnimation> AnimationPlayed;
+        public event Action<SpriteAnimation> AnimationPaused;
+        public event Action AnimationEnded;
+        public event Action<string> AnimationEventCalled;
 
         private void Awake()
         {
