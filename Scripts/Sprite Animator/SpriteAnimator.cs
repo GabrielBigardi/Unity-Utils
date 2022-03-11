@@ -74,7 +74,7 @@ namespace GabrielBigardi.SpriteAnimator
                         _spriteRenderer.sprite = currentFrame.Sprite;
 
                         SpriteChanged?.Invoke();
-                        AnimationEventCalled?.Invoke(currentFrame.EventName);
+                        if(currentFrame.EventName != "") AnimationEventCalled?.Invoke(currentFrame.EventName);
                     }
                 }
 
