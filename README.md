@@ -1,4 +1,4 @@
-# A pack of unity utilities for any usage in project.
+# A pack of utilities useful for any Unity Engine project.
 
 ## Table of contents
 | Content | Type | Location | Description |
